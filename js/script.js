@@ -41,3 +41,19 @@ else if(numeroPc>numeroUtente){  //caso di vittoria da parte del pc
 else{  //caso di pareggio
     console.log(`il tuo numero e' ${numeroUtente} , quello del pc e' ${numeroPc}, e' un pareggio`)
 }
+
+console.log('----------ES-DADI ARRAY----------')
+const nums = [1,2,3,4,5,6];
+
+let randomPcNum = nums[Math.floor(Math.random()*nums.length)]
+let randomUserNum = nums[Math.floor(Math.random()*nums.length)]
+
+if(randomUserNum>randomPcNum){
+    console.log(`il tuo numero e' ${randomUserNum} , quello del pc e' ${randomPcNum}, hai vinto`)
+}
+else if (randomUserNum<randomPcNum){
+    console.log(`il tuo numero e' ${randomUserNum} , quello del pc e' ${randomPcNum}, hai perso`)
+}
+else{
+    console.log(`il tuo numero e' ${randomUserNum} , quello del pc e' ${randomPcNum}, e' un pareggio`)
+}
