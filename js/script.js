@@ -29,5 +29,10 @@ console.log('----------ES-DADI----------')
 let numeroUtente =(Math.floor(Math.random() * 6) + 1);
 let numeroPc = (Math.floor(Math.random() * 6) + 1);
 
-
+if(numeroUtente>numeroPc){
+    console.log(`il tuo numero e' ${numeroUtente} , quello del pc e' ${numeroPc}, hai vinto`)
+}
+else{
+    console.log(`il tuo numero e' ${numeroUtente} , quello del pc e' ${numeroPc}, hai perso`)
+}
 
