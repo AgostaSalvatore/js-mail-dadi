@@ -25,3 +25,9 @@ else{
 
 console.log('----------ES-DADI----------')
 
+//Numero random per utente e pc
+let numeroUtente =(Math.floor(Math.random() * 6) + 1);
+let numeroPc = (Math.floor(Math.random() * 6) + 1);
+
+
+
