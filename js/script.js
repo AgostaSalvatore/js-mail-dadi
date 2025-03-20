@@ -29,12 +29,15 @@ console.log('----------ES-DADI----------')
 let numeroUtente =(Math.floor(Math.random() * 6) + 1);
 let numeroPc = (Math.floor(Math.random() * 6) + 1);
 
-if(numeroUtente>numeroPc){
+//confronto i numeri
+
+
+if(numeroUtente>numeroPc){  //caso di vittoria da parte dell'utente
     console.log(`il tuo numero e' ${numeroUtente} , quello del pc e' ${numeroPc}, hai vinto`)
 }
-else if(numeroPc>numeroUtente){
+else if(numeroPc>numeroUtente){  //caso di vittoria da parte del pc
     console.log(`il tuo numero e' ${numeroUtente} , quello del pc e' ${numeroPc}, hai perso`)
 }
-else{
+else{  //caso di pareggio
     console.log(`il tuo numero e' ${numeroUtente} , quello del pc e' ${numeroPc}, e' un pareggio`)
 }
