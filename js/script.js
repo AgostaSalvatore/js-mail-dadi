@@ -32,7 +32,7 @@ let numeroPc = (Math.floor(Math.random() * 6) + 1);
 if(numeroUtente>numeroPc){
     console.log(`il tuo numero e' ${numeroUtente} , quello del pc e' ${numeroPc}, hai vinto`)
 }
-else if(numeropc>numeroUtente){
+else if(numeroPc>numeroUtente){
     console.log(`il tuo numero e' ${numeroUtente} , quello del pc e' ${numeroPc}, hai perso`)
 }
 else{
